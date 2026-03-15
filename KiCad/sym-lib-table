@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "Spoke")(type "KiCad")(uri "${KIPRJMOD}/Spoke.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "uSpoke")(type "KiCad")(uri "${KIPRJMOD}/uSpoke.kicad_sym")(options "")(descr ""))
 )
