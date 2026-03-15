@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+(fp_lib_table
+  (version 7)
+  (lib (name "Spoke")(type "KiCad")(uri "${KIPRJMOD}/uSpoke.pretty")(options "")(descr ""))
+)
+=======
+(fp_lib_table
+  (lib (name "Spoke")(type "KiCad")(uri "${KIPRJMOD}/Spoke.pretty")(options "")(descr ""))
+)
+>>>>>>> 34f5f45 (Copy Spoke HW 2.1 files)
