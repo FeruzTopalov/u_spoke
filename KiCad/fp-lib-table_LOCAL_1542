@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Spoke")(type "KiCad")(uri "${KIPRJMOD}/uSpoke.pretty")(options "")(descr ""))
-)
