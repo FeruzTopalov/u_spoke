@@ -6287,6 +6287,16 @@
 		)
 		(uuid "5f07d16d-a909-4b88-8872-83599d46e555")
 	)
+	(text "EVQ-P7A01P"
+		(exclude_from_sim no)
+		(at 57.15 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6be1d372-9154-4a31-a24d-50e88e119e5c")
+	)
 	(text "TL3330AF260QG\n"
 		(exclude_from_sim no)
 		(at 57.15 129.54 0)
