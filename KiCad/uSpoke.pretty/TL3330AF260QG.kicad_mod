@@ -170,13 +170,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3d/TL3330AF260QG.step"
 		(offset
-			(xyz 0 1.1 1.8)
+			(xyz -3.9 -1.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -180)
+			(xyz -90 -0 -0)
 		)
 	)
 )
