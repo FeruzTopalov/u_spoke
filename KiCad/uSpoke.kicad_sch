@@ -6201,6 +6201,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "uSpoke:SW-SPST-2P"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -12.446 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW-SPST-2P"
+				(at -16.002 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW-SPST-2P_0_1"
+				(polyline
+					(pts
+						(xy -6.35 -1.778) (xy -6.35 -8.382)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy -8.89 -5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -2.54)
+					(radius 0.5588)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -7.62)
+					(radius 0.5588)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy -7.62 -12.7) (xy -7.62 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW-SPST-2P_1_1"
+				(pin unspecified line
+					(at 0 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Single Li-Ion cell\nDOUBLE CHECK CELL PINOUT BEFORE CONNECT!"
 		(exclude_from_sim no)
@@ -6379,18 +6614,6 @@
 		(uuid "05e66553-259a-42a2-b5ff-bebeefd4e3e2")
 	)
 	(junction
-		(at 85.09 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0af2a8ab-d919-4317-851a-9e36f833946a")
-	)
-	(junction
-		(at 82.55 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "128c562f-9e88-4b0e-8880-dcf7c494917e")
-	)
-	(junction
 		(at 355.6 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6547,12 +6770,6 @@
 		(uuid "92548ccd-a1d4-4e21-a117-f918888a22ac")
 	)
 	(junction
-		(at 82.55 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "941d0a61-90ff-48ba-bfe2-4bed2019ba7f")
-	)
-	(junction
 		(at 488.95 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6569,12 +6786,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a68c91d-d481-4bb6-a1e8-185070b6a0e9")
-	)
-	(junction
-		(at 85.09 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a623eeb5-be09-4e79-9801-7f8a73c549ca")
 	)
 	(junction
 		(at 203.2 351.79)
@@ -6637,22 +6848,10 @@
 		(uuid "bc2a3341-3217-4a18-b3db-b064ff6f2f2e")
 	)
 	(junction
-		(at 82.55 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdd5cc6f-8344-4dab-9b59-9e7d772b43f0")
-	)
-	(junction
 		(at 342.9 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc14568-d589-4861-a8a7-eb6a13c9125e")
-	)
-	(junction
-		(at 82.55 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1f1a825-1074-48ac-9840-cb59f61400de")
 	)
 	(junction
 		(at 353.06 134.62)
@@ -6762,16 +6961,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 82.55 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015ea1dc-5360-4e34-a698-4ccd9658afd7")
-	)
-	(wire
-		(pts
 			(xy 256.54 36.83) (xy 256.54 44.45)
 		)
 		(stroke
@@ -6802,7 +6991,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 85.09 78.74)
+			(xy 85.09 71.12) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7092,16 +7281,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c19e29-3633-448f-aedf-c43e799dc6b5")
-	)
-	(wire
-		(pts
 			(xy 137.16 45.72) (xy 137.16 38.1)
 		)
 		(stroke
@@ -7122,7 +7301,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 91.44) (xy 85.09 93.98)
+			(xy 85.09 91.44) (xy 85.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7149,16 +7328,6 @@
 			(type default)
 		)
 		(uuid "28544212-f171-4cc9-8fbd-7128c6ddce0f")
-	)
-	(wire
-		(pts
-			(xy 82.55 161.29) (xy 82.55 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289ec924-a58d-499d-ad6f-9a69ba7aecf6")
 	)
 	(wire
 		(pts
@@ -7249,16 +7418,6 @@
 			(type default)
 		)
 		(uuid "2c874722-5523-46f5-a9ef-6b04ae152aac")
-	)
-	(wire
-		(pts
-			(xy 82.55 135.89) (xy 87.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cda4b71-e437-4da8-9bcc-842724d85efe")
 	)
 	(wire
 		(pts
@@ -7402,16 +7561,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 158.75) (xy 82.55 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ae7f46-af0d-4192-a94f-927a4943fce5")
-	)
-	(wire
-		(pts
 			(xy 420.37 335.28) (xy 420.37 337.82)
 		)
 		(stroke
@@ -7479,16 +7628,6 @@
 			(type default)
 		)
 		(uuid "38113dfc-9be3-48fe-977a-80580119e5c0")
-	)
-	(wire
-		(pts
-			(xy 82.55 123.19) (xy 82.55 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384d10d6-2642-4bdc-a749-40a97fbce6f8")
 	)
 	(wire
 		(pts
@@ -7642,16 +7781,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480482c6-b35e-463a-9419-742bee37e790")
-	)
-	(wire
-		(pts
 			(xy 219.71 359.41) (xy 219.71 370.84)
 		)
 		(stroke
@@ -7699,16 +7828,6 @@
 			(type default)
 		)
 		(uuid "4a5f4d91-f49e-427b-b78d-680c2ae3a47d")
-	)
-	(wire
-		(pts
-			(xy 81.28 133.35) (xy 82.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4adde836-f3d7-4967-965c-373d26cdde39")
 	)
 	(wire
 		(pts
@@ -7782,7 +7901,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 158.75) (xy 87.63 158.75)
+			(xy 81.28 158.75) (xy 87.63 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8032,7 +8151,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 120.65) (xy 82.55 120.65)
+			(xy 81.28 123.19) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8202,23 +8321,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 82.55 148.59)
+			(xy 81.28 148.59) (xy 87.63 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75ee259e-e5d4-4c41-8c23-e4e3c5ee9571")
-	)
-	(wire
-		(pts
-			(xy 82.55 148.59) (xy 87.63 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76252fd8-4bf2-4311-a5c1-ad99dcfafe2f")
 	)
 	(wire
 		(pts
@@ -8572,7 +8681,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 135.89) (xy 82.55 135.89)
+			(xy 81.28 133.35) (xy 87.63 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8612,16 +8721,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b0eac0e-fe16-41c9-a72e-bf8a9dd6a6bf")
-	)
-	(wire
-		(pts
 			(xy 525.78 213.36) (xy 529.59 213.36)
 		)
 		(stroke
@@ -8649,16 +8748,6 @@
 			(type default)
 		)
 		(uuid "9d574aa0-3076-45c8-92b2-6fae3eca5459")
-	)
-	(wire
-		(pts
-			(xy 81.28 146.05) (xy 82.55 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8a38fd-6197-45d4-99b2-61578d4e540c")
 	)
 	(wire
 		(pts
@@ -9192,26 +9281,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 120.65) (xy 87.63 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb94ad9-d5a0-4c54-9d1e-804a080afd28")
-	)
-	(wire
-		(pts
-			(xy 82.55 133.35) (xy 82.55 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9b5521-77c1-4e5e-822f-a3c2319b2292")
-	)
-	(wire
-		(pts
 			(xy 97.79 330.2) (xy 97.79 339.09)
 		)
 		(stroke
@@ -9402,16 +9471,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 85.09 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd66452f-6e95-47fb-a976-fd7882983055")
-	)
-	(wire
-		(pts
 			(xy 232.41 114.3) (xy 232.41 123.19)
 		)
 		(stroke
@@ -9429,16 +9488,6 @@
 			(type default)
 		)
 		(uuid "df609be9-09b5-4fc7-a623-91f05f5f1fa5")
-	)
-	(wire
-		(pts
-			(xy 81.28 161.29) (xy 82.55 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa82d3b-f376-4346-8542-bf3e979551bc")
 	)
 	(wire
 		(pts
@@ -9469,16 +9518,6 @@
 			(type default)
 		)
 		(uuid "e09acfc3-c0d1-471b-ba19-05b47e3c3b5f")
-	)
-	(wire
-		(pts
-			(xy 82.55 146.05) (xy 82.55 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13ba574-da6e-43fa-827f-c3545e87b46f")
 	)
 	(wire
 		(pts
@@ -10324,7 +10363,7 @@
 	)
 	(global_label "BTN_OK"
 		(shape input)
-		(at 87.63 120.65 0)
+		(at 87.63 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10334,7 +10373,7 @@
 		)
 		(uuid "54b9f89a-c4ca-4581-9f15-3fcee93aaf2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1793 120.5706 0)
+			(at 97.1793 123.1106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,6 +15415,80 @@
 		)
 	)
 	(symbol
+		(lib_id "uSpoke:SW-SPST-2P")
+		(at 81.28 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a60b7e4-b4b8-4c10-91b4-91b80078081b")
+		(property "Reference" "SW3"
+			(at 75.438 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-SPST-2P"
+			(at 75.438 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db22792-c114-4024-bb1c-ec1cb0052735")
+		)
+		(pin "3"
+			(uuid "46da7257-32c2-4e54-af87-b4fe59838beb")
+		)
+		(pin "4"
+			(uuid "2c7f3be0-32cf-4774-ba42-4604b462c428")
+		)
+		(pin "2"
+			(uuid "ce484601-bf82-4fb7-a344-2113667e7939")
+		)
+		(instances
+			(project "uSpoke"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uSpoke:SP0503BAHTG")
 		(at 71.12 264.16 0)
 		(unit 1)
@@ -16309,7 +16422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 135.89 90)
+		(at 87.63 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16318,7 +16431,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d603535-ecd6-4e63-a647-9f15ba509851")
 		(property "Reference" "#PWR013"
-			(at 93.98 135.89 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16327,7 +16440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.805 136.369 90)
+			(at 90.805 133.829 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16336,7 +16449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 135.89 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16345,7 +16458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 135.89 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +16467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 135.89 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,32 +16553,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Spoke:Button-SPST-NO")
+		(lib_id "uSpoke:SW-SPST-2P")
 		(at 81.28 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fc4fcb8-eef6-4b54-af74-96f9561cd600")
+		(fields_autoplaced yes)
+		(uuid "8fd3bc26-fa89-43fa-9a98-27abee582161")
 		(property "Reference" "SW2"
-			(at 72.39 120.65 0)
+			(at 75.438 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 72.39 135.89 0)
+		(property "Value" "SW-SPST-2P"
+			(at 75.438 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Spoke:Button_6x6"
+		(property "Footprint" ""
 			(at 81.28 118.11 0)
 			(effects
 				(font
@@ -16483,25 +16596,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OK/UP"
-			(at 72.39 135.89 0)
+		(property "Description" ""
+			(at 81.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "bf7317b1-eeca-48b1-a686-2af7ed955cd9")
-		)
-		(pin "2"
-			(uuid "9930aeaf-3de3-4db2-964e-e75fb4f5c2f1")
-		)
-		(pin "4"
-			(uuid "b3b3c9aa-ebd6-42d2-9f12-31129f32013f")
+			(uuid "e267f6d4-219e-4eb0-b962-f1f8c193f756")
 		)
 		(pin "3"
-			(uuid "2982571f-92fa-4754-a0df-218f5550e1bb")
+			(uuid "70a62f2f-a4f2-4cf9-94bd-0d9994bb50e6")
+		)
+		(pin "4"
+			(uuid "848006ef-3be3-42f5-a7fb-5949c84ec2fe")
+		)
+		(pin "2"
+			(uuid "86d977d8-0485-446e-8ce2-8198e8d40e84")
 		)
 		(instances
 			(project ""
@@ -17051,6 +17165,80 @@
 		)
 	)
 	(symbol
+		(lib_id "uSpoke:SW-SPST-2P")
+		(at 81.28 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6cc07d6-56a9-4109-9b95-e79cdd5d5ab6")
+		(property "Reference" "SW4"
+			(at 75.438 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-SPST-2P"
+			(at 75.438 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa17eb9-c911-4a37-ba19-f49bd4c90f93")
+		)
+		(pin "3"
+			(uuid "1db87ec2-b83c-4f33-808c-4fb02aff8275")
+		)
+		(pin "4"
+			(uuid "5b017be7-48a0-4a0e-b979-07b6b29d1f2f")
+		)
+		(pin "2"
+			(uuid "3596845e-20ce-4a3a-90b1-d9b696bb4afa")
+		)
+		(instances
+			(project "uSpoke"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 295.91 153.67 0)
 		(unit 1)
@@ -17308,79 +17496,6 @@
 			(project "Spoke"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Spoke:Button-SPST-NO")
-		(at 81.28 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeed5e07-4e89-4c98-a466-975078ee83f5")
-		(property "Reference" "SW3"
-			(at 72.39 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Spoke:Button_6x6"
-			(at 81.28 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESC/DN"
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e207ba72-8361-45ce-be42-273e0640e77b")
-		)
-		(pin "2"
-			(uuid "e6b87c3f-53f2-4b68-bc76-dc3dcf61a7e8")
-		)
-		(pin "4"
-			(uuid "a17e0111-7a50-4734-b799-4e52c98aba3f")
-		)
-		(pin "3"
-			(uuid "1064aa6d-e9da-414b-99a0-6efaf1db7c89")
-		)
-		(instances
-			(project "Spoke"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -20497,79 +20612,6 @@
 			(project "Spoke"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Spoke:Button-SPST-NO")
-		(at 81.28 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef6abc5a-2f79-40c6-9a4e-fc45b94c0c7b")
-		(property "Reference" "SW1"
-			(at 72.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 72.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Spoke:Button_6x6"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PWR"
-			(at 72.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "201ac3bf-7b5a-40d8-8063-8f4110629254")
-		)
-		(pin "2"
-			(uuid "13cbe6cd-d869-4fd5-a495-04475299995d")
-		)
-		(pin "4"
-			(uuid "5913df49-fd03-4f8a-a598-ee7882c104e0")
-		)
-		(pin "3"
-			(uuid "c1498152-7cc9-4c9b-bc6a-5876d85f4b60")
-		)
-		(instances
-			(project "Spoke"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
