@@ -58,7 +58,7 @@
 		(start -2 -1.65)
 		(end -2 1.65)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -68,7 +68,7 @@
 		(start -2 1.65)
 		(end 2 1.65)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
