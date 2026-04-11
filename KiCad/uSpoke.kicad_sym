@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "Value" "SM12B-SRSS-TB"
-			(at 10.668 -32.004 0)
+			(at 10.922 -34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3731,7 @@
 		(symbol "SM12B-SRSS-TB_0_1"
 			(rectangle
 				(start 2.54 2.54)
-				(end 7.62 -30.48)
+				(end 7.62 -33.02)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3951,6 +3951,24 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -30.48 0)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
 					(effects
 						(font
 							(size 1.27 1.27)
