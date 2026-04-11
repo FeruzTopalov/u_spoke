@@ -1,0 +1,182 @@
+(footprint "TL3330AF260QG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.794 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d05a01da-eb95-4ee1-969a-4add5d4e194b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TL3330AF260QG"
+		(at 0 3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "109f8853-1379-498d-a647-07923394d431")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6d59c2d-f64a-4107-afcf-c9f28601a0df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31dfef01-75e2-41a8-a2fe-8c69deb2dedc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.556 0.254)
+		(end -3.556 -1.27)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "784d93da-7e96-4919-b663-fe4650afc4ad")
+	)
+	(fp_line
+		(start -2.794 -1.27)
+		(end -3.556 -1.27)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4eb97688-71cd-4ce3-a486-a42654d1497c")
+	)
+	(fp_line
+		(start -2.286 1.524)
+		(end 2.286 1.524)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb26d27c-6a43-4002-867b-493886221d99")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ba31ff1-1f03-42bb-8df5-0b740309fc48")
+	)
+	(fp_line
+		(start 2.794 -1.27)
+		(end 3.556 -1.27)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a05f8751-75c3-46a0-be34-af73d26e3b09")
+	)
+	(fp_line
+		(start 3.556 0.254)
+		(end 3.556 -1.27)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3216867d-b8c0-4f69-a995-43b9a7d58cdf")
+	)
+	(fp_rect
+		(start -4.318 -1.734)
+		(end 4.398 1.988)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e81b4550-3b17-42b1-82fc-7c51282b9c4d")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.15 0.15)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "55a30d00-8bc8-44a8-aced-5dd708df2f93")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.15 0.15)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9e6c3f7c-a4f2-4375-9171-0e16abf14d30")
+	)
+	(pad "1" smd roundrect
+		(at -2.1 -0.885)
+		(size 0.9 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d800a283-d88c-4744-8416-40fc2703a299")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 -0.885)
+		(size 0.9 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "323b2ad4-f0f8-4e44-89d2-86ab42a4674d")
+	)
+	(pad "3" smd roundrect
+		(at -3.375 1.1)
+		(size 1.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e86f3b28-0023-4baa-b5ec-5b5668b98c23")
+	)
+	(pad "4" smd roundrect
+		(at 3.375 1.1)
+		(size 1.45 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b84dd39f-e592-43e9-be68-d7cfed4a853b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3d/TL3330AF260QG.step"
+		(offset
+			(xyz -3.9 -1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

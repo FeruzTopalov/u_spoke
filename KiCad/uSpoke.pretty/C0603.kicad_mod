@@ -71,8 +71,8 @@
 		(uuid "b4692f59-32fd-48a2-9cf8-1fe8286eb2f1")
 	)
 	(fp_rect
-		(start -1.6 -0.7)
-		(end 1.6 0.7)
+		(start -1.473 -0.7)
+		(end 1.473 0.7)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -82,18 +82,18 @@
 		(uuid "f3fe2197-f40a-44f2-b65f-673a20563b62")
 	)
 	(pad "1" smd roundrect
-		(at -0.8625 0)
-		(size 1.075 0.95)
+		(at -0.775 0)
+		(size 0.9 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "bfeb8971-8335-4cdc-a266-91019db0ac40")
+		(uuid "8ea02d4e-bfd8-4b51-b573-58148557d041")
 	)
 	(pad "2" smd roundrect
-		(at 0.8625 0)
-		(size 1.075 0.95)
+		(at 0.775 0)
+		(size 0.9 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ac851a03-61ab-4d6d-8c14-c6f6a02192fc")
+		(uuid "469eb802-e399-4d3b-856d-38afa04a4304")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3d/C_0603_1608Metric.step"

@@ -50,49 +50,20 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2.675 -1.2)
-		(end 2.675 -1.2)
+	(fp_rect
+		(start -2.413 -1.016)
+		(end 2.413 1.016)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "f87c0f2d-c04c-46a9-b58e-d24759249a2d")
-	)
-	(fp_line
-		(start -2.675 1.2)
-		(end -2.675 -1.2)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d0583253-7f1c-498c-afba-93bf9b28c781")
-	)
-	(fp_line
-		(start 2.675 -1.2)
-		(end 2.675 1.2)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9b7be77a-2656-471e-885e-8c6c59fe59f7")
-	)
-	(fp_line
-		(start 2.675 1.2)
-		(end -2.675 1.2)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "150efa79-228d-47e2-89bf-fd8363924d0f")
+		(uuid "3ad8ccc7-10de-4f7f-8f43-8ac3689f1b46")
 	)
 	(fp_poly
 		(pts
-			(xy -2.9 0) (xy -3.43 0.404837) (xy -3.43 -0.395163)
+			(xy -2.667 0) (xy -3.197 0.404837) (xy -3.197 -0.395163)
 		)
 		(stroke
 			(width 0.12)
@@ -103,8 +74,8 @@
 		(uuid "4ec97102-32b8-42f8-a8df-83e088c5ef67")
 	)
 	(fp_rect
-		(start -2.9 -1.4)
-		(end 2.9 1.4)
+		(start -2.646 -1.273)
+		(end 2.646 1.273)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -113,17 +84,19 @@
 		(layer "F.CrtYd")
 		(uuid "6bcd4ba0-5015-4cd8-ab33-66d292a887ce")
 	)
-	(pad "1" smd rect
-		(at -1.525 0)
-		(size 1.7 1.8)
+	(pad "1" smd roundrect
+		(at -1.3525 0)
+		(size 1.415 1.39)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d98d557d-4f4f-49b3-9745-359bb04d0ef7")
+		(roundrect_rratio 0.179856)
+		(uuid "8911491e-62da-4abd-89a6-3f867b8a9830")
 	)
-	(pad "2" smd rect
-		(at 1.525 0)
-		(size 1.7 1.8)
+	(pad "2" smd roundrect
+		(at 1.3525 0)
+		(size 1.415 1.39)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "065bbab7-8db3-4432-af94-d82301097bd8")
+		(roundrect_rratio 0.179856)
+		(uuid "32095603-c0c2-494b-8565-f40de3de6338")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3d/CP_EIA-3216-18_Kemet-A.step"
