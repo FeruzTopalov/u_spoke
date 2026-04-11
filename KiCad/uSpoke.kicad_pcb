@@ -498,7 +498,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "05068782-787a-4a8c-856f-8cc1aca8b739")
-		(at 82.54 116.538 180)
+		(at 82.794 116.284 180)
 		(property "Reference" "C15"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
@@ -1098,7 +1098,7 @@
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "147f2ba4-95ad-4e97-b8c5-d17bf0246966")
-		(at 74.158 93.932)
+		(at 104.193 95.202)
 		(property "Reference" "R13"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
@@ -1334,9 +1334,9 @@
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "1b151517-0973-4f95-b96d-82041a66efac")
-		(at 82.54 118.062)
+		(at 83.81 113.998 -90)
 		(property "Reference" "R18"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "af2c26dd-a05a-4543-90d1-5b92edc6671c")
 			(effects
@@ -1347,7 +1347,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c1e775de-a403-4b6c-b923-00a154200e24")
 			(effects
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e938cb1-3300-4190-82b7-e04e332389cb")
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99c34530-eb74-4f3a-abc8-82be72eb922e")
@@ -1386,16 +1386,6 @@
 		(sheetfile "uSpoke.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e07adf0-9c90-416e-9698-ad8242c54399")
-		)
-		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
 			(stroke
@@ -1404,6 +1394,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "6cf5f61d-27e3-4444-848d-91aac339a885")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e07adf0-9c90-416e-9698-ad8242c54399")
 		)
 		(fp_rect
 			(start -1.473 -0.7)
@@ -1417,7 +1417,7 @@
 			(uuid "14eaf921-36e4-4577-951d-f36f4ef7c2f3")
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1427,7 +1427,7 @@
 			(uuid "b542053f-78fb-4493-b1d8-935948492f8f")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3992,111 +3992,6 @@
 			)
 		)
 	)
-	(footprint "uSpoke:Pad_round"
-		(layer "F.Cu")
-		(uuid "5bd5f714-c13c-4712-b38a-fa60109efe2f")
-		(at 74.666 111.966)
-		(property "Reference" "TP5"
-			(at 0.00508 -2.42316 0)
-			(layer "F.SilkS")
-			(uuid "e979ea7e-951b-4a0e-b721-61daf43c384b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Value" "Pad-Round"
-			(at -1.01092 2.58572 0)
-			(layer "F.Fab")
-			(uuid "394f63d0-839c-4b1d-8918-9438bfbb842a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "590f726b-0796-4521-8f6c-afd68ccd2229")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8371af9-4b7f-49a2-8f4d-d5b940421d90")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/79727449-6f5c-482e-afdc-f2181424439e")
-		(sheetname "/")
-		(sheetfile "uSpoke.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_line
-			(start -1.2 -1.2)
-			(end 1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5f34c659-fe42-4dbb-b4e0-dfdbd179d16a")
-		)
-		(fp_line
-			(start -1.2 1.2)
-			(end -1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "82a513de-5a8b-4c4f-8591-589ec25275db")
-		)
-		(fp_line
-			(start 1.2 -1.2)
-			(end 1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9a1bc864-bd9f-4499-a02f-f1dfb85bba97")
-		)
-		(fp_line
-			(start 1.2 1.2)
-			(end -1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "053db1c1-66ea-4ccd-a2e1-e6efb27fd193")
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "GND")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "836234fd-a8bd-4b8a-843c-1c01c81386c8")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "uSpoke:SOT-23-5"
 		(locked yes)
 		(layer "F.Cu")
@@ -4418,9 +4313,9 @@
 	(footprint "uSpoke:C_tantA"
 		(layer "F.Cu")
 		(uuid "74231645-e743-4380-889d-00f5d9de25db")
-		(at 114.29 111.966 -90)
+		(at 83.048 118.062 180)
 		(property "Reference" "C8"
-			(at 0.475 -2.65 270)
+			(at 0.475 -2.65 0)
 			(layer "F.SilkS")
 			(uuid "4bcdbcc4-3215-4eef-a017-d92e3f3ed545")
 			(effects
@@ -4431,7 +4326,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 0.025 2.75 270)
+			(at 0.025 2.75 0)
 			(layer "F.Fab")
 			(uuid "cccba216-c524-4e2d-871f-1c9dfe72cf8a")
 			(effects
@@ -4442,7 +4337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7bc2b4f-1db3-4cc5-894c-9474d9734f5a")
@@ -4454,7 +4349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bca7d688-d7a1-4b50-9193-c98f41532c03")
@@ -4504,7 +4399,7 @@
 			(uuid "adb39151-fcdb-4526-aade-c18e8d3d16e4")
 		)
 		(pad "1" smd roundrect
-			(at -1.3525 0 270)
+			(at -1.3525 0 180)
 			(size 1.415 1.39)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.179856)
@@ -4514,7 +4409,7 @@
 			(uuid "ae01b5e8-c399-449c-8087-f6dd6383a4ca")
 		)
 		(pad "2" smd roundrect
-			(at 1.3525 0 270)
+			(at 1.3525 0 180)
 			(size 1.415 1.39)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.179856)
@@ -4844,7 +4739,7 @@
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "7a7922bd-a65b-43e2-9cb6-0f55e1016ed0")
-		(at 74.0585 95.454 180)
+		(at 102.543 95.202 180)
 		(property "Reference" "R7"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
@@ -6147,111 +6042,6 @@
 			)
 		)
 	)
-	(footprint "uSpoke:Pad_round"
-		(layer "F.Cu")
-		(uuid "967fcf4d-f7cc-4b8d-9a9f-06c3b37ebed1")
-		(at 74.666 108.366)
-		(property "Reference" "TP4"
-			(at 0.00508 -2.42316 0)
-			(layer "F.SilkS")
-			(uuid "9472db89-ebec-47a7-9725-0c0576ed3bda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Value" "Pad-Round"
-			(at -1.01092 2.58572 0)
-			(layer "F.Fab")
-			(uuid "c0edd518-c410-4d41-91bb-328e5512803c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ac46081-9fd5-4e88-8e54-71dffdb93ee1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ded42e0d-9732-4ac7-a255-75b67bce09b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/13bbdd45-0a4c-4d05-adcc-6b71b17931d4")
-		(sheetname "/")
-		(sheetfile "uSpoke.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_line
-			(start -1.2 -1.2)
-			(end 1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "41f2b08c-538c-4316-8ea0-bc2d882d8750")
-		)
-		(fp_line
-			(start -1.2 1.2)
-			(end -1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "aa7c0253-9493-4b55-85f5-52f235b5a997")
-		)
-		(fp_line
-			(start 1.2 -1.2)
-			(end 1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3ade136a-9f83-4ed6-a9d0-10a2a21c961d")
-		)
-		(fp_line
-			(start 1.2 1.2)
-			(end -1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "93d50b0b-5f9f-4d1d-8cfd-99b5c75eefe6")
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 64 "I2C_SDA")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "e674f047-83ed-4508-a4f8-29d9ce98ca66")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "a8638338-7f87-4da0-9778-689549fb4dd1")
@@ -7381,9 +7171,9 @@
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "c2d6ed47-d3df-4e5a-9f71-7fb04ee302e7")
-		(at 74.92 97.996 -90)
+		(at 104.193 96.726)
 		(property "Reference" "R6"
-			(at 0 -1.43 90)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "5c3d36f8-7e66-4abb-b0b5-9d6a68a30761")
 			(effects
@@ -7394,7 +7184,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.43 90)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9cbd16f2-68c7-4d0d-a3f0-b2e7208a332e")
 			(effects
@@ -7405,7 +7195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69cc6b37-7081-40bc-828f-97c411375975")
@@ -7417,7 +7207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d13b8003-4248-42a3-bed9-f0e4a0eb85ad")
@@ -7433,16 +7223,6 @@
 		(sheetfile "uSpoke.kicad_sch")
 		(attr smd dnp)
 		(fp_line
-			(start -0.254724 0.5225)
-			(end 0.254724 0.5225)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "10052852-35db-42e9-8757-615aff15ab5b")
-		)
-		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
 			(stroke
@@ -7451,6 +7231,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c7e20ee1-81f9-40f9-a15a-003c970fb3a1")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "10052852-35db-42e9-8757-615aff15ab5b")
 		)
 		(fp_rect
 			(start -1.473 -0.7)
@@ -7464,7 +7254,7 @@
 			(uuid "cf68dde8-a2fe-46e8-82c5-813a1c1917a0")
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0 270)
+			(at -0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7474,7 +7264,7 @@
 			(uuid "6689c720-d83c-486e-a3a4-cc6f8dee55f8")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0 270)
+			(at 0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8021,7 +7811,7 @@
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
 		(uuid "ce3354e8-fe49-4bc7-9619-821b5e017005")
-		(at 72.825 97.742 180)
+		(at 102.543 96.726 180)
 		(property "Reference" "R12"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
@@ -8256,111 +8046,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "uSpoke:Pad_round"
-		(layer "F.Cu")
-		(uuid "d58a45ac-2338-41c5-9fd1-26723a03800f")
-		(at 74.666 115.268)
-		(property "Reference" "TP3"
-			(at 0.00508 -2.42316 0)
-			(layer "F.SilkS")
-			(uuid "51c59990-ccd1-4f95-8c80-a1e1f96ab357")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Value" "Pad-Round"
-			(at -1.01092 2.58572 0)
-			(layer "F.Fab")
-			(uuid "91eeff09-9a35-4411-af47-94e1696a3348")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b9da6e2-8c08-461e-8c00-1acfac89a453")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05cbb002-6da4-4dea-9df0-bf4ad04dcb9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/4a71d1b8-a46f-4734-8fbd-740e45be15e5")
-		(sheetname "/")
-		(sheetfile "uSpoke.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_line
-			(start -1.2 -1.2)
-			(end 1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "21e15344-4a41-432d-9c35-da2a23f6234a")
-		)
-		(fp_line
-			(start -1.2 1.2)
-			(end -1.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "31603293-1adf-4ac9-9c08-11ee749ae91e")
-		)
-		(fp_line
-			(start 1.2 -1.2)
-			(end 1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cfaf3904-f61f-44a4-8b78-d3fc4680a24c")
-		)
-		(fp_line
-			(start 1.2 1.2)
-			(end -1.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7a36087c-f487-4908-a958-65b62c782fcc")
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 65 "I2C_SCL")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "f2347196-bbb9-4160-bb45-c4907d8b36c0")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "uSpoke:R0603"
 		(layer "F.Cu")
@@ -10803,6 +10488,224 @@
 	)
 	(footprint "uSpoke:Pad_round"
 		(layer "B.Cu")
+		(uuid "5bd5f714-c13c-4712-b38a-fa60109efe2f")
+		(at 102.09068 127.931323 90)
+		(property "Reference" "TP5"
+			(at 0.00508 2.42316 90)
+			(layer "B.SilkS")
+			(uuid "e979ea7e-951b-4a0e-b721-61daf43c384b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Pad-Round"
+			(at -1.01092 -2.58572 90)
+			(layer "B.Fab")
+			(uuid "394f63d0-839c-4b1d-8918-9438bfbb842a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "590f726b-0796-4521-8f6c-afd68ccd2229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d8371af9-4b7f-49a2-8f4d-d5b940421d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/79727449-6f5c-482e-afdc-f2181424439e")
+		(sheetname "/")
+		(sheetfile "uSpoke.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_line
+			(start 1.2 -1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "053db1c1-66ea-4ccd-a2e1-e6efb27fd193")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end -1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "82a513de-5a8b-4c4f-8591-589ec25275db")
+		)
+		(fp_line
+			(start 1.2 1.2)
+			(end 1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9a1bc864-bd9f-4499-a02f-f1dfb85bba97")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end 1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5f34c659-fe42-4dbb-b4e0-dfdbd179d16a")
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 2 2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "836234fd-a8bd-4b8a-843c-1c01c81386c8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "uSpoke:Pad_round"
+		(layer "B.Cu")
+		(uuid "967fcf4d-f7cc-4b8d-9a9f-06c3b37ebed1")
+		(at 105.69068 127.931323 90)
+		(property "Reference" "TP4"
+			(at 0.00508 2.42316 90)
+			(layer "B.SilkS")
+			(uuid "9472db89-ebec-47a7-9725-0c0576ed3bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Pad-Round"
+			(at -1.01092 -2.58572 90)
+			(layer "B.Fab")
+			(uuid "c0edd518-c410-4d41-91bb-328e5512803c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ac46081-9fd5-4e88-8e54-71dffdb93ee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ded42e0d-9732-4ac7-a255-75b67bce09b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/13bbdd45-0a4c-4d05-adcc-6b71b17931d4")
+		(sheetname "/")
+		(sheetfile "uSpoke.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_line
+			(start 1.2 -1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "93d50b0b-5f9f-4d1d-8cfd-99b5c75eefe6")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end -1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aa7c0253-9493-4b55-85f5-52f235b5a997")
+		)
+		(fp_line
+			(start 1.2 1.2)
+			(end 1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3ade136a-9f83-4ed6-a9d0-10a2a21c961d")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end 1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "41f2b08c-538c-4316-8ea0-bc2d882d8750")
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 2 2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 64 "I2C_SDA")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "e674f047-83ed-4508-a4f8-29d9ce98ca66")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "uSpoke:Pad_round"
+		(layer "B.Cu")
 		(uuid "bfd843ec-39c7-473f-a694-1a2c272503a6")
 		(at 96.002 84.534 -90)
 		(property "Reference" "TP1"
@@ -10907,6 +10810,115 @@
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "162f585e-9070-4618-859f-e86d78972a38")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "uSpoke:Pad_round"
+		(layer "B.Cu")
+		(uuid "d58a45ac-2338-41c5-9fd1-26723a03800f")
+		(at 98.78868 127.931323 90)
+		(property "Reference" "TP3"
+			(at 0.00508 2.42316 90)
+			(layer "B.SilkS")
+			(uuid "51c59990-ccd1-4f95-8c80-a1e1f96ab357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Pad-Round"
+			(at -1.01092 -2.58572 90)
+			(layer "B.Fab")
+			(uuid "91eeff09-9a35-4411-af47-94e1696a3348")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b9da6e2-8c08-461e-8c00-1acfac89a453")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05cbb002-6da4-4dea-9df0-bf4ad04dcb9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/4a71d1b8-a46f-4734-8fbd-740e45be15e5")
+		(sheetname "/")
+		(sheetfile "uSpoke.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_line
+			(start 1.2 -1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7a36087c-f487-4908-a958-65b62c782fcc")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end -1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "31603293-1adf-4ac9-9c08-11ee749ae91e")
+		)
+		(fp_line
+			(start 1.2 1.2)
+			(end 1.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cfaf3904-f61f-44a4-8b78-d3fc4680a24c")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end 1.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "21e15344-4a41-432d-9c35-da2a23f6234a")
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 2 2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 65 "I2C_SCL")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "f2347196-bbb9-4160-bb45-c4907d8b36c0")
 		)
 		(embedded_fonts no)
 	)
